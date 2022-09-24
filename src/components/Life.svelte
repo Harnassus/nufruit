@@ -2,7 +2,7 @@
 	import woman from "../../static/assets/woman.png";
 </script>
 
-<div class="w-screen h-screen overflow-x-hidden">
+<div class="w-screen h-screen overflow-x-hidden overflow-y-hidden">
 	<div class="max-w-[1224px] mx-auto pt-5 flex flex-col gap-[10em] h-full">
 		<h1 class="text-2xl font-bold text-[#130F49]">nufruit</h1>
 
