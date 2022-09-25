@@ -1,5 +1,13 @@
 <script>
-	import woman from "../../static/assets/woman.png";
+	import { onMount } from "svelte";
+	import VanillaTilt from 'vanilla-tilt';
+
+	onMount(() => {
+		VanillaTilt.init(document.querySelectorAll('.woman'), {
+			max: 25,
+			speed: 400
+		});
+	})
 </script>
 
 <div class="w-screen overflow-x-hidden overflow-y-hidden">
