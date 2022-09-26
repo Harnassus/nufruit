@@ -3,10 +3,7 @@
 	import VanillaTilt from 'vanilla-tilt';
 
 	onMount(() => {
-		VanillaTilt.init(document.querySelectorAll('.woman'), {
-			max: 25,
-			speed: 400
-		});
+	
 	})
 </script>
 
