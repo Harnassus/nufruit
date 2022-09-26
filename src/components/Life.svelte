@@ -1,12 +1,17 @@
 <script>
-	import woman from "../../static/assets/woman.png";
+	import { onMount } from "svelte";
+	import VanillaTilt from 'vanilla-tilt';
+
+	onMount(() => {
+	
+	})
 </script>
 
-<div class="w-screen h-screen overflow-x-hidden">
-	<div class="max-w-[1224px] mx-auto pt-5 flex flex-col gap-[10em] h-full">
+<div class="w-screen overflow-x-hidden overflow-y-hidden">
+	<div class="max-w-[1224px] mx-auto pt-5 flex flex-col gap-[10em]">
 		<h1 class="text-2xl font-bold text-[#130F49]">nufruit</h1>
 
-		<div class="ml-32 h-full flex">
+		<div class="ml-32 flex">
 			<div class="flex flex-col items-start gap-8">
 				<h1 class="text-[75px] font-bold w-[600px] text-[#130F49]">
 					Life
@@ -27,7 +32,7 @@
 				</button>
 			</div>
 
-			<div class="">
+			<div class="relative">
 				<svg
 					width="890"
 					height="992"
@@ -43,7 +48,7 @@
 						fill="#D9F4FF"
 					/>
 				</svg>
-				<img src="/assets/woman.png" alt="a woman" class="woman" />
+				<img src="/assets/woman.png" alt="a woman" class="woman absolute" />
 			</div>
 		</div>
 	</div>
