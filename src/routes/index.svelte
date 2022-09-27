@@ -6,7 +6,7 @@
 	import Track from '../components/Track.svelte';
 </script>
 
-<div>
+<div class="mb-[8em]">
 	<Life />
 	<Target />
 	<Track />

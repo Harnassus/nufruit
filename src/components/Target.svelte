@@ -2,7 +2,7 @@
 
 </script>
 
-<div class="max-w-[1224px] mx-auto mt-[-10em] flex gap-4 justify-between items-start">
+<div class="max-w-[1124px] mx-auto mt-[-10em] flex gap-4 justify-between items-start">
     <div class="bg-[#FECFD0] w-[501px] h-[501px] rounded-[50%]">
         <img src="assets/Mask Group.png" alt="">
     </div>
